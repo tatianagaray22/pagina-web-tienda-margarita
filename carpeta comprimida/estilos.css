@@ -1,0 +1,99 @@
+.par{
+    background-color: lightseagreen;
+         
+}
+.impar{
+    background-color:goldenrod       
+}
+
+.fila-B{
+    padding: 30px 0 15px;
+    text-align: center;
+}
+
+.redes{
+    width: 52px;
+    height: 52px;
+    border-radius:100px;
+    text-align: center;
+    line-height: 52px;
+}  
+    
+.topnav > a{
+    display: inline-block;
+    width: 17%;
+    padding: 0 10px 10px 0;
+    font-size: large;
+}
+
+.boton1{
+    width: 100%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: darkgoldenrod;
+}
+
+.text-center > img{
+    max-width: 100%;
+}
+
+.card > img{
+    max-width: 100%;
+}
+
+.col-md-3{
+    justify-content: right;
+}
+
+.marco{
+    border: 2px solid #4872e7;
+    padding: 15px 15px 15px 15px;
+}
+
+form > button{
+    width: 100%;
+}
+
+.footer{ 
+    position: relative;
+    height: 50px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    line-height: 50px;
+    color:white;
+    margin-bottom: 20px;
+}
+
+
+.icono1{
+    float: left;
+    bottom: 20px;   
+    border-radius: 100;
+    background-color: blanchedalmond;
+}
+
+.icono2{
+    float: right;
+    background-color: aliceblue
+}
+.icono3{
+    float: none;
+    background-color: blue;
+}
+
+/******************************************************/
+@media screen and (min-width: 544px) {
+    .boton1{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .boton1{
+        width: 49%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .boton1{
+        width: 19%;
+    }
+}  

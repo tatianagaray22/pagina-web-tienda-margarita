@@ -1,0 +1,17 @@
+.btn-success {
+    color: #fff;
+    width: 20%;
+    border-radius: 0px;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.col-8 {
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    border-color: darkgray;
+}
